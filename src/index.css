@@ -406,3 +406,28 @@ body {
 .social_coash.facebook:hover {
   background-color: #3b5998;
 }
+#Questions {
+  position: relative;
+  overflow: hidden;
+ padding-top: 50px;
+ padding-bottom: 70px;
+}
+#Questions::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.questions_parallax {
+  background-image: url(../src/assets/images/shutterstock_274434071.jpg);
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 150%;
+  top: -50%;
+  background-attachment: scroll;
+  background-size: cover;
+  z-index: 0;
+  background-position: 50% 0;
+}

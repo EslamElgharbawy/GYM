@@ -2,6 +2,7 @@ import Header from "./components/Header/Header";
 import About from "./Sections/About/About";
 import Coaches from "./Sections/Coaches/Coaches";
 import Hero from "./Sections/Hero/Hero";
+import Questions from "./Sections/Questions/Questions";
 import Results from "./Sections/Results/Results";
 import Results2 from "./Sections/Results2/Results2";
 import StatsSection from "./Sections/StatsSection/StatsSection";
@@ -22,6 +23,7 @@ function App() {
           <Results2 />
           <WhyUs />
           <Coaches />
+          <Questions />
         </div>
       </main>
       <footer></footer>
