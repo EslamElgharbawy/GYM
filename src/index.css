@@ -409,8 +409,8 @@ body {
 #Questions {
   position: relative;
   overflow: hidden;
- padding-top: 50px;
- padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 #Questions::after {
   content: "";
@@ -430,4 +430,12 @@ body {
   background-size: cover;
   z-index: 0;
   background-position: 50% 0;
+}
+.Q_header {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 18px;
 }
