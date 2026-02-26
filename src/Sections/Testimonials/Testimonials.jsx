@@ -1,12 +1,37 @@
-import { useState } from "react";
-import { Carousel } from "react-bootstrap";
+import TestimonialsCard from "../../components/Header/TestimonialsCard/TestimonialsCard";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+
+import { Navigation } from "swiper/modules";
 
 export default function Testimonials() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
+  const testimonials = [
+    {
+      content:
+        "Formas humanitatis per seacula quarta decima et quinta decima. Modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum quarta decima et quinta decima.",
+      name: "John Smith",
+      company: "Microsoft",
+    },
+    {
+      content:
+        "Per seacula quarta decima et quinta decima. Modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum quarta decima. Lorem ipsum dolorum have a great day.",
+      name: "Steve Morris",
+      company: "FashionTop",
+    },
+    {
+      content:
+        "Per seacula quarta decima et quinta decima. Modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum quarta decima. Lorem ipsum dolorum have a great day.",
+      name: "Michael Moore",
+      company: "Apple",
+    },
+    {
+      content:
+        "Humanitatis per seacula quarta decima et quinta decima. Modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum quarta decima. Modo typi quartasab.",
+      name: "Britney Doe",
+      company: "Google",
+    },
+  ];
   return (
     <>
       <section id="Testimonials">
@@ -20,31 +45,25 @@ export default function Testimonials() {
               <p className="special-heading-subtitle">What our clients say.</p>
             </div>
           </div>
-          <Carousel activeIndex={index} onSelect={handleSelect} indicators={false}>
-            <Carousel.Item>
-                <div className="row mb-4">
-                  <div className="col-sm-12 col-lg-6 col-xl-4">
-                    <div className="item text-start">
-                      <div className="testimonial-inner">
-                        <div className="testimonial_content px-4 py-3">
-                          <p>
-                            Per seacula quarta decima et quinta decima. Modo
-                            typi, qui nunc nobis videntur parum clari, fiant
-                            sollemnes in futurum quarta decima. Lorem ipsum
-                            dolorum have a great day.
-                          </p>
-                        </div>
-
-                        <div className="testimonial-caption ps-4 mt-4">
-                          <div className="testimonial-author">Michael Moore</div>
-                          <div className="testimonial-position">Apple</div>{" "}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </Carousel.Item>
-          </Carousel>
+          <div className="p-3">
+            <Swiper
+              navigation={true}
+              modules={[Navigation]}
+              className="mySwiper testimonials"
+              breakpoints={{
+                0: { slidesPerView: 1 },
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+              }}
+              loop={true}
+            >
+              {testimonials.map((item, index) => (
+                <SwiperSlide key={index}>
+                  <TestimonialsCard {...item} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
       </section>
     </>
