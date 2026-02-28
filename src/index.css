@@ -514,7 +514,7 @@ body {
   stroke: currentColor;
   stroke-width: 1.6;
 }
-#Join {
+#Join{
   padding-block: 65px;
   overflow: hidden;
 }
@@ -565,4 +565,9 @@ body {
   background-position: 50% 0;
   height: 130%;
   top: -30px;
+}
+#Footer{
+  padding-block: 65px;
+  background-color: #1b1b1b;
+  overflow: hidden;
 }

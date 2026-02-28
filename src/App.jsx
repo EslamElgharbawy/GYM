@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header";
 import About from "./Sections/About/About";
 import Coaches from "./Sections/Coaches/Coaches";
+import Footer from "./Sections/Footer/Footer";
 import Hero from "./Sections/Hero/Hero";
 import Join from "./Sections/Join/Join";
 import Questions from "./Sections/Questions/Questions";
@@ -26,11 +27,13 @@ function App() {
           <WhyUs />
           <Coaches />
           <Questions />
-          <Testimonials/>
-          <Join/>
+          <Testimonials />
+          <Join />
         </div>
       </main>
-      <footer></footer>
+      <footer className="position-relative z-3">
+        <Footer />
+      </footer>
     </>
   );
 }

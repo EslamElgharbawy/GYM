@@ -39,7 +39,7 @@ export default function Testimonials() {
           <div>
             <div className="special-heading">
               <div className="special-heading-icon colored">
-                <i class="fa-regular fa-comment"></i>
+                <i className="fa-regular fa-comment"></i>
               </div>
               <h3 className="special-heading-title">Testimonials</h3>
               <p className="special-heading-subtitle">What our clients say.</p>
