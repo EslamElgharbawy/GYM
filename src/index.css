@@ -472,7 +472,7 @@ body {
   background-color: transparent;
 }
 .testimonials .swiper-wrapper {
-  padding-bottom: 70px;
+  margin-bottom: 70px;
 }
 .testimonials .swiper-button-prev,
 .testimonials .swiper-button-next {
@@ -490,7 +490,7 @@ body {
 
 .testimonials .swiper-button-prev {
   left: 50% !important;
-  transform: translateX(-45px);
+  transform: translateX(-23px);
 }
 
 .testimonials .swiper-button-next {
@@ -513,4 +513,56 @@ body {
   fill: currentColor;
   stroke: currentColor;
   stroke-width: 1.6;
+}
+#Join {
+  padding-block: 65px;
+  overflow: hidden;
+}
+#Join::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+.Join_box{
+  padding-block: 80px;
+}
+.cta-heading {
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: white;
+}
+.cta-subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffffd1;
+}
+.cta-buttons {
+  background-color: #ef5350;
+  width: auto;
+  text-transform: uppercase;
+  padding: 20px 28px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+}
+.cta-buttons:hover {
+  background-color: #333;
+}
+.Join_parallax {
+  background-image: url(./assets/images/shutterstock_311105993.jpg);
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 0;
+  background-position: 50% 0;
+  height: 130%;
+  top: -30px;
 }
