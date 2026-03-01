@@ -514,17 +514,17 @@ body {
   stroke: currentColor;
   stroke-width: 1.6;
 }
-#Join{
+#Join {
   padding-block: 65px;
   overflow: hidden;
 }
 #Join::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
-.Join_box{
+.Join_box {
   padding-block: 80px;
 }
 .cta-heading {
@@ -566,8 +566,53 @@ body {
   height: 130%;
   top: -30px;
 }
-#Footer{
+#Footer {
   padding-block: 65px;
   background-color: #1b1b1b;
   overflow: hidden;
+  color: #797979;
+}
+.widget-title {
+  margin-bottom: 25px;
+  font-size: 17px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+}
+.textwidget {
+  max-width: 350px;
+  line-height: 27px;
+}
+.fa-angle-right {
+  font-size: 14px;
+}
+.footer_list_item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-bottom: 7px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.footer_list_item:last-child {
+  border-bottom: none;
+}
+.widget-contact-details::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-indent: -9999px;
+  background: url(assets/images/contact-details-map.png) no-repeat center center;
+  opacity: 0.11;
+}
+.widget-contact-details-item {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.widget-contact-details-item i {
+  color: #636363;
 }
