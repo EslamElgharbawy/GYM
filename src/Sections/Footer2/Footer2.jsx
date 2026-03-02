@@ -7,7 +7,7 @@ export default function Footer2() {
         <div className="container d-flex justify-content-center align-items-center flex-wrap">
           <div className="footer_info ">
             <div class="footer-image">
-              <img src={fot_img} alt="" />
+              <img src={fot_img} alt="" className="w-100 h-100 object-fit-cover"/>
             </div>
             <div class="w-100">
               <p class="copyright">Copyright 2017 All rights reserved. </p>
