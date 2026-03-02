@@ -1,4 +1,4 @@
-export default function Footer() {
+export default function Footer1() {
   return (
     <>
       <section id="Footer">
