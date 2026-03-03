@@ -42,9 +42,9 @@ export default function Hero() {
             allowTouchMove={false}
             navigation={true}
             modules={[EffectFade, Navigation]}
-            className="mySwiper hero position-relative"
+            className="mySwiper position-relative"
           >
-            <SwiperSlide>
+            <SwiperSlide className="swiperSlide">
               <div className="slide_img">
                 <div>
                   <img
@@ -54,8 +54,8 @@ export default function Hero() {
                   />
                 </div>
               </div>
-            </SwiperSlide>{" "}
-            <SwiperSlide>
+            </SwiperSlide>
+            <SwiperSlide className="swiperSlide">
               <div className="slide_img">
                 <div>
                   <img
@@ -65,7 +65,7 @@ export default function Hero() {
                   />
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide >
             <div
               ref={heroContent}
               className="position-absolute start-50 top-50 text-center translate-middle z-1"

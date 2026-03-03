@@ -62,7 +62,7 @@ body {
   height: 100%;
 }
 
-.hero .swiper-slide {
+.swiperSlide{
   text-align: center;
   font-size: 18px;
   background: #444;
@@ -77,8 +77,8 @@ body {
   height: 100%;
   object-fit: cover;
 }
-.hero .swiper-button-prev,
-.hero .swiper-button-next {
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
   background: rgba(0, 0, 0, 0.6) !important;
   width: 48px !important;
   height: 48px !important;
@@ -88,30 +88,30 @@ body {
   opacity: 0.7;
   transition: opacity 0.3s;
 }
-.hero .swiper-button-next {
+.mySwiper .swiper-button-next {
   right: 25px !important;
 }
-.hero .swiper-button-prev {
+.mySwiper .swiper-button-prev {
   left: 25px !important;
 }
-.hero .swiper-button-prev:hover,
-.hero .swiper-button-next:hover {
+.mySwiper .swiper-button-prev:hover,
+.mySwiper .swiper-button-next:hover {
   opacity: 1;
 }
-.hero .swiper-button-prev > svg,
-.hero .swiper-button-next > svg {
+.mySwiper .swiper-button-prev > svg,
+.mySwiper .swiper-button-next > svg {
   width: 10px !important;
 }
-.hero .swiper-button-prev svg path,
-.hero .swiper-button-next svg path {
+.mySwiper .swiper-button-prev svg path,
+.mySwiper .swiper-button-next svg path {
   fill: currentColor;
   stroke: currentColor;
   stroke-width: 1.2;
 }
 
 @media (max-width: 819px) {
-  .hero .swiper-button-prev,
-  .hero .swiper-button-next {
+  .mySwiper .swiper-button-prev,
+  .mySwiper .swiper-button-next {
     display: none !important;
   }
   .footer-image {

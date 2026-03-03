@@ -16,11 +16,11 @@ export default function Header() {
           <Navbar.Collapse id="basic-navbar-nav" className="flex-grow-0 h-100">
             <Nav className="me-auto gap-4 h-100 align-items-center">
               <Nav.Link href="#home" className="nav_items">Home</Nav.Link>
-              <Nav.Link href="#link" className="nav_items">About</Nav.Link>
-              <Nav.Link href="#link" className="nav_items">Classes</Nav.Link>
-              <Nav.Link href="#link" className="nav_items">Membership</Nav.Link>
-              <Nav.Link href="#link" className="nav_items">Blog</Nav.Link>
-              <Nav.Link href="#link" className="nav_items">Link</Nav.Link>
+              <Nav.Link href="#About" className="nav_items">About</Nav.Link>
+              <Nav.Link href="#WhyUs" className="nav_items">Why us</Nav.Link>
+              <Nav.Link href="#Coaches" className="nav_items">Coaches</Nav.Link>
+              <Nav.Link href="#Questions" className="nav_items">FAQ</Nav.Link>
+              <Nav.Link href="#Testimonials" className="nav_items">Testimonials</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

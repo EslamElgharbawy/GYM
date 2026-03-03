@@ -49,7 +49,7 @@ export default function Testimonials() {
             <Swiper
               navigation={true}
               modules={[Navigation]}
-              className="mySwiper testimonials"
+              className="testimonials"
               breakpoints={{
                 0: { slidesPerView: 1 },
                 768: { slidesPerView: 2 },
