@@ -112,7 +112,7 @@ export default function WhyUs() {
 
   return (
     <>
-      <section id="Why_Us">
+      <section id="whyUs">
         <div className="container text-center">
           <div>
             <div className="special-heading">

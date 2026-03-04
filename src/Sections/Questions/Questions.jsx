@@ -21,7 +21,7 @@ export default function Questions() {
   }, []);
   return (
     <>
-      <section id="Questions" className="position-relative">
+      <section id="questions" className="position-relative">
         <div className="container text-center position-relative z-2">
           <div>
             <div className="special-heading">

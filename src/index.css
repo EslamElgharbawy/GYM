@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -19,7 +22,15 @@ body {
   top: 0;
   left: 0;
   z-index: 999;
+  transition: all 0.3s ease-in-out;
 }
+.nav-scrolled {
+  background-color: #202020;
+}
+.isShow{
+  transform: translateY(-100%);
+}
+
 .logo {
   height: 40px;
   width: auto;
@@ -37,14 +48,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  cursor: pointer;
 }
 .nav_items:hover {
   color: #ef5350;
 }
 
-.nav_items.active {
+.active-link{
   color: #ef5350;
-  border-top: 2px solid #ef5350;
 }
 #hero {
   width: 100%;
@@ -62,7 +73,7 @@ body {
   height: 100%;
 }
 
-.swiperSlide{
+.swiperSlide {
   text-align: center;
   font-size: 18px;
   background: #444;
@@ -117,7 +128,6 @@ body {
   .footer-image {
     width: 300px;
   }
-
 }
 .hero-heading {
   font-size: 68px;
@@ -301,7 +311,7 @@ body {
   margin-bottom: 25px;
   text-transform: uppercase;
 }
-#Why_Us {
+#whyUs {
   padding-top: 45px;
   padding-bottom: 90px;
   background-color: #161616;
@@ -348,7 +358,7 @@ body {
 .featur_description {
   line-height: 27px;
 }
-#Coaches {
+#coaches {
   padding-top: 45px;
   padding-bottom: 100px;
   background-color: #1d1d1d;
@@ -410,13 +420,13 @@ body {
 .social_coash.facebook:hover {
   background-color: #3b5998;
 }
-#Questions {
+#questions {
   position: relative;
   overflow: hidden;
   padding-top: 50px;
   padding-bottom: 70px;
 }
-#Questions::after {
+#questions::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -625,7 +635,7 @@ body {
   background-color: #151515;
   color: #777;
 }
-.footer_info{
+.footer_info {
   width: fit-content;
   text-align: center;
 }
@@ -660,19 +670,23 @@ body {
   align-items: center;
   text-decoration: none;
 }
-.social-icons a.icon-facebook:hover{
+.social-icons a.icon-facebook:hover {
   background-color: #3b5998;
   color: white;
-}.social-icons a.icon-google:hover{
+}
+.social-icons a.icon-google:hover {
   background-color: #dd4b39;
   color: white;
-}.social-icons a.icon-tumblr:hover{
+}
+.social-icons a.icon-tumblr:hover {
   background-color: #32506d;
   color: white;
-}.social-icons a.icon-twitter:hover{
+}
+.social-icons a.icon-twitter:hover {
   background-color: #00aced;
   color: white;
-}.social-icons a.icon-youtube:hover{
+}
+.social-icons a.icon-youtube:hover {
   background-color: #bb0000;
   color: white;
 }

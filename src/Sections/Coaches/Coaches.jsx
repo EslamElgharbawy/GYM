@@ -6,7 +6,7 @@ import card3 from "../../assets/images/shutterstock_203253853-600x600.jpg";
 export default function Coaches() {
   return (
     <>
-      <section id="Coaches">
+      <section id="coaches">
         <div className="container text-center">
           <div>
             <div className="special-heading">
