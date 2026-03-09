@@ -18,6 +18,21 @@ export default function Header() {
   ];
   useEffect(() => {
     const handleScroll = () => {
+      const scrollY = window.scrollY;
+      let current = "";
+      sections.forEach((id) => {
+        const section = document.getElementById(id);
+        if (section) {
+          const offsetTop = section.offsetTop + 200;
+          const height = section.offsetHeight;
+          if (scrollY >= offsetTop && scrollY < offsetTop + height) {
+            current = id;
+          }
+        }
+      });
+      if (current) {
+        setactive(current);
+      }
       if (scrollY > 100) {
         setNavBg(true);
       } else {
@@ -29,39 +44,15 @@ export default function Header() {
         setshow(true);
       }
       if (scrollY < 200) {
-        setactive("home")
+        setactive("home");
       }
 
       lastScroll.current = scrollY;
     };
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setactive(entry.target.id);
-          }
-        });
-      },
-      {
-        root: null,
-        rootMargin: "-120px 0px 0px 0px",
-        threshold: 0.4,
-      },
-    );
-
-    sections.forEach((id) => {
-      const section = document.getElementById(id);
-      if (section) observer.observe(section);
-    });
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      sections.forEach((id) => {
-        const section = document.getElementById(id);
-        if (section) observer.unobserve(section);
-      });
     };
   }, []);
   return (
