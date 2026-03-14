@@ -20,7 +20,7 @@ function App() {
       </header>
       <main>
         <Hero />
-        <div className="main-content position-relative z-3 overflow-hidden">
+        {/* <div className="main-content position-relative z-3 overflow-hidden">
           <About />
           <Results />
           <StatsSection />
@@ -30,12 +30,12 @@ function App() {
           <Questions />
           <Testimonials />
           <Join />
-        </div>
+        </div> */}
       </main>
-      <footer className="position-relative z-3">
+      {/* <footer className="position-relative z-3">
         <Footer1 />
         <Footer2 />
-      </footer>
+      </footer> */}
     </>
   );
 }
