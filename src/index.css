@@ -95,6 +95,9 @@ body {
   content: "";
   position: absolute;
   inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
 }
 .slide_img img {
   display: block;
@@ -208,7 +211,6 @@ body {
   color: #000;
 }
 
-
 #about {
   background-color: #161616;
 }
@@ -260,6 +262,7 @@ body {
   background-position: center center;
   background-color: #161616;
 }
+
 .title_results {
   font-size: 32px;
   font-weight: 800;
@@ -267,6 +270,7 @@ body {
   text-transform: uppercase;
 }
 .p_results {
+  max-width: 520px;
   font-size: 16px;
   line-height: 29px;
 }
@@ -350,8 +354,10 @@ body {
   margin-bottom: 25px;
   text-transform: uppercase;
 }
-.p_results{
-  max-width: 520px;
+
+.result2_info p {
+  color: white;
+  max-width: 500px;
 }
 #whyUs {
   padding-top: 45px;

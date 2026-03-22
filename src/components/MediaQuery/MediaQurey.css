@@ -16,14 +16,7 @@
     width: 100%;
     height: 100%;
   }
-  .slide_img::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 100%;
-  }
+
   .hero-heading {
     font-size: 36px;
   }
@@ -78,6 +71,19 @@
     font-size: 14px;
     line-height: 27px;
   }
+  #results2::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+  }
+  .results2_parallax {
+    height: 130%;
+    background-position: 65% center;
+  }
+  
   .footer-image {
     width: 300px;
   }
@@ -96,14 +102,7 @@
     width: 100%;
     height: 100%;
   }
-  .slide_img::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 100%;
-  }
+
   .hero-heading {
     font-size: 38px;
   }
@@ -134,7 +133,7 @@
   .about_info {
     padding-top: 50px;
   }
-   .about_title {
+  .about_title {
     font-size: 26px;
   }
   .icon_list {
@@ -144,19 +143,31 @@
   .icon_list i {
     font-size: 20px !important;
   }
-.title_results {
+  .title_results {
     font-size: 26px;
   }
   .p_results {
     font-size: 15px;
     line-height: 28px;
   }
+  #results2::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+  }
+  .results2_parallax {
+    height: 130%;
+    background-position: 65% center;
+  }
   .footer-image {
     width: 300px;
   }
 }
 @media (min-width: 480px) and (max-width: 821px) {
-  body{
+  body {
     font-size: 16px;
   }
   .container,
@@ -172,14 +183,7 @@
     width: 100%;
     height: 100%;
   }
-  .slide_img::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 100%;
-  }
+
   .hero-heading {
     font-size: 40px;
   }
@@ -210,9 +214,9 @@
     padding-top: 50px;
     max-width: none;
   }
-.about_title{
-  font-size: 32px;
-}
+  .about_title {
+    font-size: 32px;
+  }
   .icon_list {
     width: 56px !important;
     height: 56px !important;
@@ -224,6 +228,12 @@
     font-size: 15px;
   }
 
+  .results2_parallax {
+    height: 130%;
+  }
+  .result2_info p {
+    max-width: 330px;
+  }
   .footer-image {
     width: 300px;
   }
@@ -233,14 +243,7 @@
     width: 100%;
     height: 100%;
   }
-  .slide_img::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 100%;
-  }
+
   .hero-heading {
     font-size: 60px;
   }
@@ -260,5 +263,4 @@
   .hero-btn {
     width: 55%;
   }
- 
 }

@@ -32,10 +32,10 @@ function App() {
           <Join />
         </div>
       </main>
-      {/* <footer className="position-relative z-3">
+      <footer className="position-relative z-3">
         <Footer1 />
         <Footer2 />
-      </footer> */}
+      </footer>
     </>
   );
 }
