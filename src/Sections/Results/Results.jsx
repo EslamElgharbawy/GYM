@@ -26,7 +26,7 @@ export default function Results() {
     <>
       <section className="results">
         <div className="results_content container d-flex justify-content-center position-relative z-2">
-          <div className="w-50 text-center">
+          <div className="text-center">
             <div className="vc_column-inner px-3">
               <div className="wpb_wrapper">
                 <div className="wpb_text_column wpb_content_element mb-4 text-white">

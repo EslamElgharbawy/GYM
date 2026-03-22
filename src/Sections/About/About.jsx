@@ -18,7 +18,7 @@ export default function About() {
             {/* Content */}
             <div className="about_info col-12 col-lg-6">
               <div className="mb-4">
-                <h2 className="mb-4 text-white fw-bold text-uppercase">
+                <h2 className="about_title mb-4 text-white text-uppercase">
                   Who we are?
                 </h2>
                 <p className="mb-4 lh-lg">

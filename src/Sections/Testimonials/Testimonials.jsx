@@ -1,4 +1,4 @@
-import TestimonialsCard from "../../components/Header/TestimonialsCard/TestimonialsCard";
+import TestimonialsCard from "../../components/TestimonialsCard/TestimonialsCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
