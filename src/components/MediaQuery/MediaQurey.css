@@ -83,7 +83,28 @@
     height: 130%;
     background-position: 65% center;
   }
-  
+  .special-heading .special-heading-title {
+    font-size: 26px !important;
+  }
+  .special-heading .special-heading-subtitle {
+    font-size: 15px;
+    margin: 12px auto 0;
+  }
+  .special-heading-icon {
+    font-size: 36px;
+  }
+  .feature_title {
+    font-size: 18px;
+  }
+  .icon-circle {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+  }
+  .icon {
+    width: 30px;
+    height: 42px;
+  }
   .footer-image {
     width: 300px;
   }
@@ -136,6 +157,7 @@
   .about_title {
     font-size: 26px;
   }
+  
   .icon_list {
     width: 48px !important;
     height: 48px !important;
@@ -161,6 +183,18 @@
   .results2_parallax {
     height: 130%;
     background-position: 65% center;
+  }
+  .feature_title {
+    font-size: 20px;
+  }
+  .icon-circle {
+    width: 76px;
+    height: 76px;
+    font-size: 32px;
+  }
+  .icon {
+    width: 32px;
+    height: 44px;
   }
   .footer-image {
     width: 300px;
@@ -234,6 +268,18 @@
   .result2_info p {
     max-width: 330px;
   }
+  .feature_title {
+    font-size: 20px;
+  }
+  .icon-circle {
+    width: 76px;
+    height: 76px;
+    font-size: 32px;
+  }
+  .icon {
+    width: 32px;
+    height: 44px;
+  }
   .footer-image {
     width: 300px;
   }
@@ -263,4 +309,13 @@
   .hero-btn {
     width: 55%;
   }
+  .feature_title {
+    font-size: 20px;
+  }
+  .icon-circle {
+    width: 76px;
+    height: 76px;
+    font-size: 32px;
+  }
+  
 }

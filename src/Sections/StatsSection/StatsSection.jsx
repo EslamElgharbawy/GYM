@@ -29,10 +29,10 @@ export default function StatsSection() {
           hasAnimated.current = true;
 
           const Stats = [
-            { id: "White T-Shirt", value: 780 },
+            { id: "White-TShirt", value: 780 },
             { id: "Megaphones", value: 160 },
-            { id: "Light Bulbs", value: 1750 },
-            { id: "White T-Shirt2", value: 780 },
+            { id: "Light-Bulbs", value: 1750 },
+            { id: "White-TShirt2", value: 780 },
           ];
 
           Stats.forEach(({ id, value }) => {
@@ -67,7 +67,7 @@ export default function StatsSection() {
         <div className="container">
           <div className="row row-cols-sm-2 row-cols-xl-4">
             <StatCard
-              id="white-tshirt"
+              id="White-TShirt"
               number="780"
               title="White T-Shirt"
               icon={
@@ -134,7 +134,7 @@ export default function StatsSection() {
               }
             />
             <StatCard
-              id="white-tshirt"
+              id="White-TShirt2"
               number="780"
               title="White T-Shirt"
               icon={
