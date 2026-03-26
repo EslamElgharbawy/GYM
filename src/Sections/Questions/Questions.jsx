@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import QuestionsCard from "../../components/QuestionsCard/QuestionsCard";
 
 export default function Questions() {
   const parallax = useRef();
@@ -48,63 +49,39 @@ export default function Questions() {
             </div>
           </div>
           <div className="row g-5">
-            <div className="col-sm-12 col-md-6 text-start">
-              <div className="wpb_text_column wpb_content_element vc_custom_1493137761149">
-                <div className="wpb_wrapper">
-                  <h4 className="Q_header">Do I need to register?</h4>
-                  <p className="lh-lg">
-                    Rogatus ad ultimum admissusque in consistorium ambage nulla
+            <QuestionsCard
+              question={`Rogatus ad ultimum admissusque in consistorium ambage nulla
                     praegressa inconsiderate et leviter proficiscere inquit ut
                     praeceptum est, Caesar sciens quod si cessaveris, et tuas et
                     palatii tui auferri iubebo prope diem annonas. hocque solo
-                    contumaciter dicto subiratus abscessit nec.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-12 col-md-6 text-start">
-              <div className="wpb_text_column wpb_content_element vc_custom_1493137761149">
-                <div className="wpb_wrapper">
-                  <h4 className="Q_header">What is a single application?</h4>
-                  <p className="lh-lg">
-                    Ultimum admissusque in consistorium ambage nulla praegressa
+                    contumaciter dicto subiratus abscessit nec.`}
+              title={"Do I need to register?"}
+            />
+            <QuestionsCard
+              question={`Ultimum admissusque in consistorium ambage nulla praegressa
                     inconsiderate et leviter proficiscere inquit ut praeceptum
                     est, Caesar sciens quod si cessaveris, et tuas et palatii
                     tui auferri iubebo prope diem annonas. hocque solo
-                    contumaciter dicto subiratus abscessit nec rogatus matus.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-12 col-md-6 text-start">
-              <div className="wpb_text_column wpb_content_element vc_custom_1493137761149">
-                <div className="wpb_wrapper">
-                  <h4 className="Q_header">What software do I need?</h4>
-                  <p className="lh-lg">
-                    Ultimum admissusque in consistorium ambage nulla praegressa
+                    contumaciter dicto subiratus abscessit nec rogatus matus.`}
+              title={"What is a single application?"}
+            />
+            <QuestionsCard
+              question={`Ultimum admissusque in consistorium ambage nulla praegressa
                     inconsiderate et leviter proficiscere inquit ut praeceptum
                     est, Caesar sciens quod si cessaveris, et tuas et palatii
                     tui auferri iubebo prope diem annonas. hocque solo
                     contumaciter dicto subiratus abscessit nec in conspectum
-                    eius.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-12 col-md-6 text-start">
-              <div className="wpb_text_column wpb_content_element vc_custom_1493137761149">
-                <div className="wpb_wrapper">
-                  <h4 className="Q_header">How secure it is?</h4>
-                  <p className="lh-lg">
-                    Leviter proficiscere inquit ut praeceptum est, Caesar sciens
+                    eius.`}
+              title={"What software do I need?"}
+            />
+            <QuestionsCard
+              question={`Leviter proficiscere inquit ut praeceptum est, Caesar sciens
                     quod si cessaveris, et tuas et palatii tui auferri iubebo
                     prope diem annonas. hocque solo contumaciter dicto subiratus
                     abscessit nec. Rogatus ad ultimum admissusque in
-                    consistorium ambage nulla praegressa inconsiderate.
-                  </p>
-                </div>
-              </div>
-            </div>
+                    consistorium ambage nulla praegressa inconsiderate.`}
+              title={"How secure it is?"}
+            />
           </div>
         </div>
 
