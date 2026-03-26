@@ -444,7 +444,11 @@ body {
 .card-img-wrapper {
   overflow: hidden;
 }
+
 .card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.5s ease;
 }
 .card:hover .card-img-wrapper img {
@@ -481,6 +485,7 @@ body {
 .social_coash.facebook:hover {
   background-color: #3b5998;
 }
+
 #questions {
   position: relative;
   overflow: hidden;
