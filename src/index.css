@@ -524,6 +524,7 @@ body {
   padding-bottom: 90px;
   background-color: #1d1d1d;
 }
+
 .testimonial_content {
   background-color: #232323;
   border-radius: 4px;
@@ -630,7 +631,6 @@ body {
   line-height: 19px;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
-  margin-top: 20px;
 }
 .cta-buttons:hover {
   background-color: #333;

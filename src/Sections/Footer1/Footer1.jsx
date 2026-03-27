@@ -4,7 +4,7 @@ export default function Footer1() {
       <section id="Footer">
         <div className="container">
           <div className="row g-3">
-            <div className="col-sm-12 col-lg-6 col-xl-4">
+            <div className="col-sm-12 col-md-6 col-xl-4">
               <div class="widget footer-widget footer-widget-col-1 widget_text">
                 <h4 class="widget-title">About us</h4>
                 <div class="textwidget ">
@@ -21,7 +21,7 @@ export default function Footer1() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-lg-6 col-xl-4">
+            <div className="col-sm-12 col-md-6 col-xl-4">
               <div class="widget footer-widget footer-widget-col-3 widget_text">
                 <h4 class="widget-title">Opening Hours</h4>
                 <div class="textwidget">
@@ -146,8 +146,8 @@ export default function Footer1() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-lg-6 col-xl-4">
-              <div class="widget_contact_details position-relative">
+            <div className="col-sm-12 col-md-6 col-xl-4">
+              <div class="widget widget_contact_details position-relative">
                 <h4 class="widget-title">Contact Details</h4>
                 <div class="widget-contact-details contact-details-map position-relative">
                   <div class="widget-contact-details-item d-flex gap-2">

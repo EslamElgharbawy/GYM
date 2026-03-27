@@ -16,7 +16,7 @@ export default function Join() {
       element.style.top = `${topPercent}%`;
     };
     window.addEventListener("scroll", handleScroll);
-    return () => window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (

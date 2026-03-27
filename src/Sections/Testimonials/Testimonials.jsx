@@ -45,7 +45,7 @@ export default function Testimonials() {
               <p className="special-heading-subtitle">What our clients say.</p>
             </div>
           </div>
-          <div className="p-3">
+          <div className="test_items p-3">
             <Swiper
               navigation={true}
               modules={[Navigation]}
