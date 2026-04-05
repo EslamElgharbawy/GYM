@@ -104,9 +104,9 @@ export default function Header() {
                 animate={{ height: "auto", opacity: 1 }}
                 exit={{ height: 0, opacity: 0 }}
                 transition={{ duration: 0.3 }}
-                className="open_menu p-3"
+                className="open_menu px-3 py-2"
               >
-                <Nav className="me-auto gap-4 h-100 align-items-center">
+                <Nav className="h-100">
                   {sections.map((id) => (
                     <a
                       key={id}
