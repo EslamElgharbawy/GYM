@@ -1,16 +1,53 @@
-# React + Vite
+# 🏋️ ENGAGE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive fitness landing page built with React.
+This project focuses on delivering a clean UI, smooth animations, and an engaging user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://gym-nu-self.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Modern and clean fitness UI
+* Fully responsive on all devices
+* Smooth animations and transitions
+* Fast and optimized performance
+* Reusable and scalable components
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* React Bootstrap
+* Framer Motion
+* Swiper  
+* CountUp.js  
+* Font Awesome (fortawesome/fontawesome-free)
+* Vercel (Deployment)
+
+---
+
+## Concepts & Techniques
+
+This project demonstrates the use of modern frontend techniques:
+
+* 🎯 **React Hooks**
+  Using `useState`, `useEffect`, and `useRef` for state management and DOM interaction.
+
+* 🎬 **Framer Motion**
+  Adding smooth and interactive animations.
+
+* 🌀 **Parallax Effect**
+  Creating dynamic scrolling effects for a modern UI experience.
+
+* 👀 **Intersection Observer API**
+  Triggering animations when elements enter the viewport.
+
+* 📱 **Responsive Design**
+  Implemented custom **media queries** for all screen sizes.
