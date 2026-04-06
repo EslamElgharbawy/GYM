@@ -108,7 +108,7 @@ export default function Header() {
                       if (id === "home") {
                         window.scrollTo({ top: 0, behavior: "smooth" });
                       }
-                      setIsOpen(false);
+                      setisOpen(false);
                     }}
                     className={`nav_items ${active === id ? "active-link" : ""}`}
                   >
