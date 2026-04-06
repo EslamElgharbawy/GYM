@@ -97,35 +97,27 @@ export default function Header() {
               ))}
             </Nav>
           </Navbar.Collapse>
-          {isopen && (
-            <AnimatePresence>
-              <motion.div
-                initial={{ height: 0, opacity: 0 }}
-                animate={{ height: "auto", opacity: 1 }}
-                exit={{ height: 0, opacity: 0 }}
-                transition={{ duration: 0.3 }}
-                className="open_menu px-3 py-2"
-              >
-                <Nav className="h-100">
-                  {sections.map((id) => (
-                    <a
-                      key={id}
-                      href={`#${id}`}
-                      onClick={() => {
-                        if (id === "home") {
-                          window.scrollTo({ top: 0, behavior: "smooth" });
-                        }
-                        setisOpen(false);
-                      }}
-                      className={`nav_items ${active === id ? "active-link" : ""}`}
-                    >
-                      {id}
-                    </a>
-                  ))}
-                </Nav>
-              </motion.div>
-            </AnimatePresence>
-          )}
+          <div className={`open_menu ${isopen ? "open" : ""}`}>
+            <div className="px-3 py-2">
+              <Nav className="flex-column">
+                {sections.map((id) => (
+                  <a
+                    key={id}
+                    href={`#${id}`}
+                    onClick={() => {
+                      if (id === "home") {
+                        window.scrollTo({ top: 0, behavior: "smooth" });
+                      }
+                      setIsOpen(false);
+                    }}
+                    className={`nav_items ${active === id ? "active-link" : ""}`}
+                  >
+                    {id}
+                  </a>
+                ))}
+              </Nav>
+            </div>
+          </div>
         </Container>
       </Navbar>
     </>

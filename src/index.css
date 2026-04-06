@@ -58,6 +58,7 @@ body {
 .active-link {
   color: #ef5350;
 }
+
 .nav_toggle {
   width: 30px;
   height: 30px;
@@ -110,10 +111,15 @@ body {
   left: 0;
   right: 0;
   top: 100px;
-  overflow: hidden; /* مهم جدا */
+  overflow: hidden;
   z-index: 999;
   border-radius: 0 0 16px 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  max-height: 0;
+  transition: max-height 0.5s ease;
+}
+.open_menu.open {
+  max-height: 400px;
 }
 #home {
   width: 100%;
