@@ -1,4 +1,4 @@
-# 🏋️ ENGAGE
+# 🏋️ ENGAGE GYM
 
 A modern and responsive fitness landing page built with React.
 This project focuses on delivering a clean UI, smooth animations, and an engaging user experience.
